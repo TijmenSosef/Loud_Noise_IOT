@@ -1,6 +1,9 @@
 # Loud noise detection
 
-This project provides a simple and easy-to-use way to monitor the temperature and humidity using a Raspberry Pi and the Sense HAT add-on board. The project includes a VNC server so that you can remotely access the Raspberry Pi's desktop and view the temperature and humidity readings in real-time.
+This project gives a way to detect loud noises with an ESP and a sound sensor.
+
+WARNING:
+It does not work perfectly and there are better ways to do this.
 
 ## Requirements
 - ESP8266 12-E
@@ -15,7 +18,6 @@ This project provides a simple and easy-to-use way to monitor the temperature an
 In this project I use IFTTT to get push notifications on my phone.
 
 1. goto the IFTTT website https://ifttt.com and make sure you are logged in.
-
 
 3. Goto my **Create**.
 
@@ -82,9 +84,11 @@ https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
 
 
 ### Features
+- push notification to your phone
+- Detecting loud noises 
 
 ### Usage
-Once you've connected everything changed to settings to your needs you can place the senser somewhere in the house and detect loud noises. Make sure to have a internet connection and connect it to a power source
+Once everything is up and running you can place it somewhere you'd like to detect loud noises.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
