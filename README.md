@@ -78,6 +78,8 @@ https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
 
 6. Upload the code to your ESP.
 
+7. Play around with the settings and the screw on sensor until you find a sensitivity that suits your needs.
+
 
 ### Features
 
